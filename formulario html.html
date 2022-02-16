@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio formmulário HTML</title>
+    <link rel="stylesheet" href="./styles formulario.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@500;700&family=Roboto:wght@100;400;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h2></h2>
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <label class="label-names" for="nome"> Nome</label>
+        <input class="Inputs-bigger" type="text" name="nome" id="nome" required>
+
+
+        <label class="label-names" for="email">E-mail</label>
+        <input class="Inputs-bigger" type="email" name="email" id="email" required>
+
+
+        <label class="label-names" for="idade"> Idade</label>
+        <input class="input-age" type="number" name="idade" required min="12" max="80">
+
+
+        <label class="label-names" for="data-nascimento"> Data-nascimento </label>
+        <input class="Inputs-bigger" type="date" name="data-nascimento" id="data-nascimento">
+
+        <label class="label-names"> Onde você possui conta
+            <label id="social-media">
+                <input type="checkbox" name="facebook">
+                Facebook
+                <input type="checkbox" name="instagram">
+                Instagram
+                <input type="checkbox" name="youtube">
+                Youtube
+            </label>
+        </label>
+
+        <label class="label-names"> Sexo
+            <label id="genres">
+                <input type="radio" name="genero" value="maculino">
+                Masculino
+                <input type="radio" name="genero" value="feminino">
+                Feminino
+            </label>
+        </label>
+
+        <label class="label-names"> Cor dos Olhos
+            <input id="color-eyes" type="color" name="cor-dos-olhos">
+        </label>
+
+        <label class="label-names">Biografia
+            <textarea id="Bio" name="Bio"></textarea>
+        </label>
+
+        <label class="label-names"> Foto de Perfil
+
+            <input id="image-perfil" type="file" name="arquivo" accept="images/*">
+        </label>
+
+        <label class="label-names"> Telefone
+            <input class="Inputs-bigger" type="tel" name="telefone">
+        </label>
+
+        <label class="label-names"> Link do Perfil do Instagram
+            <input class="Inputs-bigger" type="url" name="url">
+        </label>
+
+        <label class="label-names"> Senha
+            <input class="Inputs-bigger" type="password" name="Senha" min="6" max="8" required>
+
+        </label>
+
+        <button class="style-buttons" type="reset" name="reset">Limpar</button>
+        <button class="style-buttons" type="submit" name="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+
+</html>
