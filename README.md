@@ -8,10 +8,9 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Estrutura HTML
-- [x] Estilização CSS
-- [ ] Linkar E-mail de envio do formulário 
-- [ ] Acabamentos finais 
+- [X] Estrutura HTML
+- [X] Estilização CSS
+- [X] Linkar E-mail de envio do formulário  
 
 
 
